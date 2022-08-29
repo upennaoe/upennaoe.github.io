@@ -1,0 +1,88 @@
+.carousel-item {
+	height: 32rem;
+	background: #000;
+	color: white;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+}
+
+.container {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-bottom: 50px;
+	opacity: 1;
+}
+
+.overlay-image {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-position: center;
+	background-size: cover;
+	opacity: 0.5;
+}
+.recruit {
+	height: 650px;
+}
+
+.recruit-image {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-position: top;
+	background-size: cover;
+	opacity: 1;
+	height: 650px;
+	background-color: #000;
+	filter: brightness(80%);
+}
+.subtitle-font {
+	color: white;
+}
+
+.navbar-bg {
+	color: rgb(125, 176, 243);
+}
+
+.navbar-font {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.bg-blue {
+	--bs-bg-opacity: 1;
+	background-color: rgba(65, 105, 225) !important;
+  }
+
+.btn-blue {
+	color: #fff;
+	background-color: #4169e1;
+	border-color: #4169e1;	
+}
+
+.text-royal-blue {
+	color:#4169e1;
+}
+
+.socials-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.btn-blk {
+	color: black;
+	border-color: black;
+	border-radius: 20px;	
+}
+.recruit-text {
+	text-shadow: 3px 3px 0px #4169e1;
+	font-size: 70px;
+}
